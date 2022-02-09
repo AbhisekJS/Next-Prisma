@@ -22,3 +22,15 @@
   color: grey;
   margin-top: 5px;
 }
+
+.deleteBtn {
+  margin: 0px 10px;
+  margin-left:auto;
+  color: red;
+  border: none;
+  /* border: 1px solid rgba(88, 88, 88, 0.267); */
+  border-radius: 8px;
+  padding:8px 12px;
+  cursor: pointer;
+  background-color: #ffdada;
+}
