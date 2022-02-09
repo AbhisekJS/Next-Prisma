@@ -8,7 +8,9 @@ export default async function handle(req, res) {
        where: {
          id: Number(req.query.id),
        },
-     });}catch(e){
+     });
+    res.status(201).send({"Message":"Deleted Successully"})
+  }catch(e){
        res.status(500).json({error: e.message})
    };
     

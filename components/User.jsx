@@ -25,7 +25,6 @@ function User({ firstName, lastName, avatar, email,id }) {
                 <div className={styles.email}>{email}</div>
             </div>
             <button className={styles.deleteBtn}
-            
                 onClick={()=>deleteHandler(id)}>Delete</button>
         </div>
     );
